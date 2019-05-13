@@ -3,7 +3,15 @@
     <view class="w100 h100x disflex flexwrapno">
         <view class="subview">1</view>
         <view class="subview">2</view>
-        <view class="subview">3</view>
+        <view class="subview">4</view>
+        <view class="subview">5</view>
+        <view class="subview">6</view>
+        <view class="subview">7</view>
+        <view class="subview">8</view>
+        <view class="subview">9</view>
+        <view class="subview">10</view>
+        <view class="subview">11</view>
+        <view class="subview">12</view>
     </view>
 </view>
 
