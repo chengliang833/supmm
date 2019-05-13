@@ -10,12 +10,12 @@
 } 
 /* 开发边框 */
 view{
-  border: 2rpx solid #000000;
+  border: 1px solid #000000;
 }
 
 /* 边框单独调试 */
 .border{
-  border: 2rpx solid #000000;
+  border: 1px solid #000000;
 }
 
 .w100{
@@ -36,17 +36,22 @@ view{
   display: flex;
 }
 
+/* flex下默认row */
 .flexdircol{
   flex-direction: column;
 }
-
-.flexwrapno{
-  flex-wrap:nowrap;
+/* flex下默认nowarp */
+.flexwrap{
+  flex-wrap:wrap;
 }
 
-
-
-
+/* flex下默认flex-start */
+.jstcontce{
+  justify-content:center;
+}
+.jstcontaround{
+  justify-content:space-around;
+}
 
 
 

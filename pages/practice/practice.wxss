@@ -3,9 +3,18 @@
 .subview{
     height: 100rpx;
     width: 100rpx;
+    background-color:cyan;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
+.flexgrow2{
+    flex-grow: 2;
+}
 
+.flexshrink0{
+    flex-shrink: 0;
+}
 
 
 
