@@ -1,0 +1,59 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+/* 开发边框 */
+view{
+  border: 2rpx solid #000000;
+}
+
+/* 边框单独调试 */
+.border{
+  border: 2rpx solid #000000;
+}
+
+.w100{
+  width: 100%;
+}
+.h100{
+  height: 100%;
+}
+
+.w100x{
+  width: 100rpx;
+}
+.h100x{
+  height: 100rpx;
+}
+
+.disflex{
+  display: flex;
+}
+
+.flexdircol{
+  flex-direction: column;
+}
+
+.flexwrapno{
+  flex-wrap:nowrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

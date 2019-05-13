@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/practice/practice",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "",
+        "selectedIconPath": "",
+        "text": "tab1"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "",
+        "selectedIconPath": "",
+        "text": "tab2"
+      },
+      {
+        "pagePath": "pages/practice/practice",
+        "iconPath": "",
+        "selectedIconPath": "",
+        "text": "tab3"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

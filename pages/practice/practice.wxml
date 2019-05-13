@@ -1,0 +1,24 @@
+<!--pages/practice/practice.wxml-->
+<view class="container">
+    <view class="w100 h100x disflex flexwrapno">
+        <view class="subview">1</view>
+        <view class="subview">2</view>
+        <view class="subview">3</view>
+    </view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

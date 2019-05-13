@@ -1,0 +1,15 @@
+/* pages/practice/practice.wxss */
+
+.subview{
+    height: 100rpx;
+    width: 100rpx;
+}
+
+
+
+
+
+
+
+
+
