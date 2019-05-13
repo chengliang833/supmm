@@ -1,0 +1,40 @@
+/* pages/scrollview/scrollview.wxss */
+
+#scrollbox{
+    padding: 0 80rpx;
+}
+
+.subview{
+    height: 100rpx;
+    background-color:cyan;
+    position:relative;
+    align-items:center;
+    justify-content:center;
+}
+
+.subview:before{
+    content: 'title center';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+
+.subview_h{
+    width: 100%;
+    display: inline-block;
+    height: 100rpx;
+    background-color:cyan;
+    position:relative;
+    align-items:center;
+    justify-content:center;
+}
+.scrview_h{
+    white-space:nowrap;
+}
+
+
+
+

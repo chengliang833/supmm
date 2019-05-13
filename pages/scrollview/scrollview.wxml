@@ -1,0 +1,33 @@
+<!--pages/scrollview/scrollview.wxml-->
+<view class="container">
+    <view class="h100rx " id="scrollbox">
+        <scroll-view class="h100 w100"  scroll-y="true">
+            <view class="subview">1</view>
+            <view class="subview">2</view>
+            <view class="subview">4</view>
+            <view class="subview">5</view>
+            <view class="subview">6</view>
+            <view class="subview">7</view>
+            <view class="subview">8</view>
+            <view class="subview">9</view>
+            <view class="subview">10</view>
+            <view class="subview">11</view>
+            <view class="subview">12</view>
+        </scroll-view>
+    </view>
+    <view class="h100rx marg10rxtop" id="scrollbox">
+        <scroll-view class="h100 scrview_h"  scroll-x="true">
+            <view class="subview_h">1</view>
+            <view class="subview_h">2</view>
+            <view class="subview_h">4</view>
+            <view class="subview_h">5</view>
+            <view class="subview_h">6</view>
+            <view class="subview_h">7</view>
+            <view class="subview_h">8</view>
+            <view class="subview_h">9</view>
+            <view class="subview_h">10</view>
+            <view class="subview_h">11</view>
+            <view class="subview_h">12</view>
+        </scroll-view>
+    </view>
+</view>
