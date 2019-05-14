@@ -1,0 +1,17 @@
+<!--pages/cover-view/cover-view.wxml-->
+<import src="../common/head.wxml"/>
+<import src="../common/foot.wxml"/>
+
+<view class="container">
+    <template is="head" data="{{title:'cover-view',desc:'this is description ummmm... ummmm... ummmm...'}}"></template>
+    <view class="mapbox">
+        <map class="map" latitude="{{latitude}}" longitude="{{longitude}}">
+            <cover-view class="coverbox">
+                <cover-view class="covertitle widthorg">title1</cover-view>
+                <cover-view class="widthfill vsubcenter">detail</cover-view>
+            </cover-view>
+        </map>
+    </view>
+    <template is="foot"></template>
+</view>
+

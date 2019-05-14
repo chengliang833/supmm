@@ -1,0 +1,29 @@
+/* pages/cover-view/cover-view.wxss */
+
+.mapbox{
+    padding: 25rpx;
+}
+
+.map{
+    height: 800rpx;
+}
+
+.coverbox{
+    position: relative;
+    width: 300rpx;
+    height: 160rpx;
+    margin: 320rpx auto;
+    display: flex;
+}
+
+.covertitle{
+    margin: auto;
+}
+
+
+
+
+
+
+
+

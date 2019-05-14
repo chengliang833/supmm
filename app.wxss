@@ -8,7 +8,7 @@
   padding: 10rpx 0;
 } 
 /* 开发边框 */
-view{
+view, cover-view{
   border: 1px solid #000000;
 }
 

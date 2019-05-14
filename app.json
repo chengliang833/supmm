@@ -1,10 +1,11 @@
 {
   "pages": [
+    "pages/cover-view/cover-view",
     "pages/movable-view/movable-view",
     "pages/swiper/swiper",
     "pages/scrollview/scrollview",
     "pages/index/index",
-    "pages/practice/practice" ,
+    "pages/practice/practice",
     "pages/logs/logs"
   ],
   "window": {
