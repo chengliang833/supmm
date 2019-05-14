@@ -1,8 +1,9 @@
 {
   "pages": [
+    "pages/swiper/swiper",
     "pages/scrollview/scrollview",
-    "pages/practice/practice",
     "pages/index/index",
+    "pages/practice/practice",
     "pages/logs/logs"
   ],
   "window": {
@@ -28,12 +29,6 @@
         "iconPath": "",
         "selectedIconPath": "",
         "text": "tab2"
-      },
-      {
-        "pagePath": "pages/practice/practice",
-        "iconPath": "",
-        "selectedIconPath": "",
-        "text": "tab3"
       }
     ]
   },

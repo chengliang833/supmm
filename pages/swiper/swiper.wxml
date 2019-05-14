@@ -1,0 +1,44 @@
+<!--pages/swiper/swiper.wxml-->
+<view class="container">
+    <view class="" id="swiperbox">
+        <swiper id="swiper1" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+            <block wx:for="{{items}}" wx:key="*this">
+                <swiper-item >
+                    <view class="swiper-item {{item}}">{{item}}</view>
+                </swiper-item>
+            </block>
+        </swiper>
+    </view>
+    <!-- <view > -->
+        <view class="switchbox disflex">
+            <view class="switchtitle vsubcenter widthfill">指示点</view>
+            <view class="switchbtn vsubcenter widthorg">
+                <switch checked="{{indicatorDots}}" bindchange="changeIndicatorDots" />
+            </view>
+        </view>
+        <view class="switchbox2 disflex">
+            <view class="switchtitle vsubcenter widthfill">自动播放</view>
+            <view class="switchbtn vsubcenter widthorg">
+                <switch checked="{{autoplay}}" bindchange="chageAutoplay" />
+            </view>
+        </view>
+    <!-- </view> -->
+    <view class="timebox">
+        <view class="timetitle disflex">
+            <view class="widthfill">幻灯片切换动画时长(ms)</view>
+            <view class="widthorg">{{duration}}</view>
+        </view>
+        <slider bindchange="durationChange" min="500" max="2000" step="10" value="{{duration}}"/>
+    </view>
+    <view class="timebox">
+        <view class="timetitle disflex">
+            <view class="widthfill">自动播放间隔时长(ms)</view>
+            <view class="widthorg">{{interval}}</view>
+        </view>
+        <slider bindchange="intervalnChange" min="2000" max="10000" step="100" value="{{interval}}"/>
+    </view>
+
+</view>
+
+
+

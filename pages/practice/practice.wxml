@@ -1,6 +1,6 @@
 <!--pages/practice/practice.wxml-->
 <view class="container">
-    <view class="w100 h100rx disflex flexwrap jstcontaround">
+    <!-- <view class="w100 h100rx disflex flexwrap jstcontaround">
         <view class="subview">1</view>
         <view class="subview">2</view>
         <view class="subview">4</view>
@@ -12,6 +12,10 @@
         <view class="flexgrow2 subview">10</view>
         <view class="subview">11</view>
         <view class="subview">12</view>
+    </view> -->
+    <view class="w100 h100rx disflex flexwrap jstcontaround">
+        <view class="subview">1</view>
+        <view class="subview">2</view>
     </view>
 </view>
 

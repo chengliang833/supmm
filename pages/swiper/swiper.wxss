@@ -1,0 +1,71 @@
+/* pages/swiper/swiper.wxss */
+
+#swiperbox{
+    padding: 0 80rpx;
+    height: 200rpx;
+}
+
+#swiper1{
+    height: 200rpx;
+}
+
+.swiper-item{
+    height: 100%;
+}
+
+.itcls1{
+    background-color: blue;
+}
+.itcls2{
+    background-color: brown;
+}
+.itcls3{
+    background-color: cadetblue;
+}
+
+
+.switchbox{
+    padding: 0 30rpx;
+    height: 40px;
+    /* border: 1px solid #666666; */
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: #666666;
+}
+.switchbox2{
+    padding: 0 30rpx;
+    height: 40px;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #666666;
+}
+
+.switchtitle{
+    height: 100%;
+}
+.switchbtn{
+    height: 100%;
+}
+
+.timebox{
+    padding: 30rpx 30rpx 0 30rpx;
+    font-size: 28rpx;
+    color: #999999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
