@@ -1,0 +1,39 @@
+
+#headbox, #headbox view{
+    border-width: 0;
+}
+
+.headtitle{
+    font-size: 28rpx;
+    color: cadetblue;
+    text-align: center;
+    margin: 0 0 5px 0;
+}
+
+.headline{
+    margin:0 auto;
+    width:150rpx;
+    height:2rpx;
+    background-color:#D8D8D8;
+}
+
+.headdesc{
+    margin-top: 5px;
+    font-size: 26rpx;
+    padding: 0 25rpx;
+    /* text-align: center; */
+}
+
+.footnav{
+    padding-top: 20rpx;
+    text-align: center;
+}
+
+.footicon{
+    margin: auto;
+    height: 23rpx;
+    width: 152rpx;
+}
+
+
+

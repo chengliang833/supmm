@@ -1,0 +1,5 @@
+<template name="foot">
+    <navigator class="footnav" open-type="switchTab" url="/pages/index/index">
+        <image class="footicon" src="../../images/icon_foot.png" />
+    </navigator>
+</template>

@@ -1,0 +1,7 @@
+<template name="head">
+    <view class="" id="headbox">
+        <view class="headtitle">{{title}}</view>
+        <view class="headline"></view>
+        <view wx:if="{{desc}}" class="headdesc">{{desc}}</view>
+    </view>
+</template>

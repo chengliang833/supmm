@@ -1,0 +1,47 @@
+/* pages/movable-view/movable-view.wxss */
+
+movable-area {
+    height: 400rpx;
+    width: 400rpx;
+    margin: 0 0 0 50rpx;
+    background-color: #ccc;
+    overflow: hidden;
+}
+
+movable-view {
+    /* 内部内容居中 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* 自身设置 */
+    height: 100rpx;
+    width: 100rpx;
+    background: #1AAD19;
+    color: #fff;
+}
+
+.subtitle{
+    font-size: 28rpx;
+    padding: 25rpx 25rpx 15rpx 25rpx; 
+}
+
+.btnbox{
+    margin: 20rpx 0;
+    padding: 0 25rpx;
+}
+
+.big{
+    width: 600rpx;
+    height: 600rpx;
+}
+
+
+
+
+
+
+
+
+
+
+

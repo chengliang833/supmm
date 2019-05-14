@@ -1,16 +1,13 @@
-// pages/swiper/swiper.js
+// pages/movable-view/movable-view.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    items: ['itcls1', 'itcls2', 'itcls3'],
-    indicatorDots: true,
-    // vertical: false,
-    autoplay: false,
-    interval: 2000,
-    duration: 500
+    x: 0,
+    y: 0,
+    scale:1
   },
 
   /**
@@ -67,31 +64,27 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }, 
+  },
 
-  // 开关指示点
-  changeIndicatorDots() {
+  movetap() {
     this.setData({
-      indicatorDots: !this.data.indicatorDots
+      x: 50,
+      y: 50
     })
   },
 
-  chageAutoplay() {
-    this.setData({
-      autoplay: !this.data.autoplay
-    })
-  },
-
-  durationChange(e){
+  onChange(e){
     console.log(e);
-    this.setData({
-      duration: e.detail.value
-    })
   },
 
-  intervalnChange(e){
+  onScale(e){
+    console.log(e);
+  },
+
+  expatap(){
     this.setData({
-      interval: e.detail.value
+      scale: 2
     })
   }
+
 })

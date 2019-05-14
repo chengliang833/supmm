@@ -1,0 +1,44 @@
+<!--pages/movable-view/movable-view.wxml-->
+<import src="../common/head.wxml"/>
+<import src="../common/foot.wxml"/>
+
+<view class="container">
+    <template is="head" data="{{title:'movable-view',desc:'this is description ummmm... ummmm... ummmm...'}}"></template>
+    <view class="subtitle">区域内随意移动</view>
+    <movable-area>
+        <movable-view x="{{x}}" y="{{y}}" direction="all">move</movable-view>
+    </movable-area>
+    <view class="btnbox">
+        <button bindtap="movetap" type="primary">点击移动到(50px,50px)</button>
+    </view>
+
+    <view class="subtitle">大于区域顶边移动</view>
+    <movable-area>
+        <movable-view direction="all" class="big">move</movable-view>
+    </movable-area>
+
+    <view class="subtitle">指定方向移动</view>
+    <movable-area>
+        <movable-view direction="horizontal">move</movable-view>
+    </movable-area>
+
+    <view class="subtitle">边界回弹</view>
+    <movable-area>
+        <movable-view direction="all" out-of-bounds>move</movable-view>
+    </movable-area>
+
+    <view class="subtitle">保留惯性</view>
+    <movable-area>
+        <movable-view direction="all" inertia>move</movable-view>
+    </movable-area>
+    
+    <view class="subtitle">双指缩放</view>
+    <movable-area>
+        <movable-view direction="all" scale scale-min="0.5" scale-max="4" scale-value="{{scale}}" bindchange="onChange" bindscale="onScale">move</movable-view>
+    </movable-area>
+    <view class="btnbox">
+        <button bindtap="expatap" type="primary">点击放大两倍</button>
+    </view>
+
+    <template is="foot"></template>
+</view>

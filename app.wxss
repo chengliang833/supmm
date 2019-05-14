@@ -1,7 +1,10 @@
 /**app.wxss**/
+
+@import "pages/common/common.wxss"
+
 .container {
   /* width: 100%; */
-  height: 1000rpx;
+  /* height: 1000rpx; */
   padding: 10rpx 0;
 } 
 /* 开发边框 */
