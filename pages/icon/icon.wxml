@@ -1,0 +1,23 @@
+<!--pages/icon/icon.wxml-->
+<import src="../common/head.wxml"/>
+<import src="../common/foot.wxml"/>
+
+<view class="container">
+    <template is="head" data="{{title:'icon',desc:''}}"></template>
+
+    <view >
+        <block wx:for-items="{{icons}}" wx:key="{{item.id}}">
+            <view class="iconsbox">
+                <view class="imgbox">
+                    <icon type="{{item.id}}" size="{{item.size}}" color="{{item.color}}"/>
+                </view>
+                <view class="contbox">
+                    <view >{{item.title}}</view>
+                    <view class="cont">{{item.cont}}</view>
+                </view>
+            </view>
+        </block>
+    </view>
+
+    <template is="foot"></template>
+</view>

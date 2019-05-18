@@ -87,13 +87,20 @@ scrollview{
 .widthorg{
   flex-grow: 0;
 }
-/* 填充宽,多个时按比例 1 2 3... */
+/* 填充宽,多个时按比例 1 2 3... 但不能缩小 */
 .widthfill{
   flex-grow: 1;
 }
 
-
-
+/* 原宽2 默认 不加 */
+.widthorg2{
+  flex-shrink: 0;
+}
+/* 缩小宽,多个时比例, 但不能扩大, 一般fill 当需要缩小时shrink+w100% */
+.widthzout{
+  width: 100%;
+  flex-shrink: 100;
+}
 
 
 

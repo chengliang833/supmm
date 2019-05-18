@@ -1,0 +1,32 @@
+/* pages/icon/icon.wxss */
+
+.iconsbox{
+    display: flex;
+    align-items: center;
+    padding: 10rpx 50rpx;
+}
+
+.imgbox{
+    width: 95px;
+    height: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contbox{
+    width: 100%;
+    flex-shrink: 100;
+}
+
+.cont{
+    color: #888;
+    font-size: 28rpx;
+    padding: 5rpx 10rpx;
+}
+
+
+
+
+
+
