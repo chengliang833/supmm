@@ -1,4 +1,4 @@
-// pages/practice/practice.js
+// pages/view/view.js
 Page({
 
   /**

@@ -76,7 +76,7 @@ scrollview{
 }
 
 /* flex下宽自动填充 */
-/* 原宽 */
+/* 原宽 默认 可以不用添加 */
 .widthorg{
   flex-grow: 0;
 }

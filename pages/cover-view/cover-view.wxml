@@ -8,7 +8,7 @@
         <map class="map" latitude="{{latitude}}" longitude="{{longitude}}">
             <cover-view class="coverbox">
                 <cover-view class="covertitle widthorg">title1</cover-view>
-                <cover-view class="widthfill vsubcenter">detail</cover-view>
+                <cover-view class="widthfill vsubcenter hsubcenter">detail</cover-view>
             </cover-view>
         </map>
     </view>

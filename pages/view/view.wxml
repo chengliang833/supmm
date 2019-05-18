@@ -1,4 +1,4 @@
-<!--pages/practice/practice.wxml-->
+<!--pages/view/view.wxml-->
 <view class="container">
     <!-- <view class="w100 h100rx disflex flexwrap jstcontaround">
         <view class="subview">1</view>

@@ -7,7 +7,27 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
+  <view class="listbox">
+    <block wx:for-items="{{list}}" wx:key="{{item.id}}">
+      <view>
+        <view class="itembox vsubcenter {{item.open?'itembox-hide':''}}" id="{{item.id}}" bindtap="kindToggle">
+          <view class="widthfill">{{item.name}}</view>
+          <image class="itemimg" src="/images/kind/{{item.id}}.png" />
+        </view>
+        <view class="contentbox {{item.open?'contentbox-show':''}}">
+          <view class="slidenav {{item.open?'slidenav-show':''}}">
+            <block wx:for-items="{{item.pages}}" wx:for-item="page" wx:key="*item">
+              <navigator url="/pages/{{page}}/{{page}}" class="navbox">
+                <view class="navtext">{{page}}</view>
+                <view class="navarrow"></view>
+              </navigator>
+            </block>
+          </view>
+        </view>
+      </view>
+    </block>
+  </view>
   <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+    <text class="user-motto hsubcenter">{{motto}}</text>
   </view>
 </view>

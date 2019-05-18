@@ -1,12 +1,12 @@
 {
   "pages": [
+    "pages/index/index",
+    "pages/view/view",
+    "pages/logs/logs",
     "pages/cover-view/cover-view",
     "pages/movable-view/movable-view",
     "pages/swiper/swiper",
-    "pages/scrollview/scrollview",
-    "pages/index/index",
-    "pages/practice/practice",
-    "pages/logs/logs"
+    "pages/scrollview/scrollview"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -19,3 +19,71 @@
 .usermotto {
   margin-top: 200px;
 }
+
+.itembox{
+  padding: 25rpx;
+}
+
+.itembox-hide{
+  opacity: 0.2;
+}
+
+.itemimg{
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.contentbox{
+  overflow: hidden;
+  height: 0;
+}
+
+.contentbox-show{
+  height: auto;
+}
+
+.slidenav{
+  opacity: 0;
+  position:relative;
+  font-size:34rpx;
+  transform:translateY(-50%);
+  transition:0.3s;
+}
+.slidenav-show{
+  opacity: 1;
+  transform:translateY(0);
+}
+
+.navbox{
+  display: flex;
+  padding: 25rpx;
+}
+
+.navbox .navtext{
+  flex-grow: 1;
+  border-width: 0 0 1px 0;
+}
+
+.navarrow{
+  /* padding-right: 25rpx; */
+  position: relative;
+  border-width: 0;
+}
+
+.navarrow:after {
+  content: "";
+  display: inline-block;
+  height: 18rpx;
+  width: 18rpx;
+  border-width: 2rpx 2rpx 0 0;
+  border-color: #888888;
+  border-style: solid;
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  position: absolute;
+  top: 50%;
+  margin-top: -8rpx;
+  right: 28rpx;
+}
+
+
+
