@@ -1,0 +1,43 @@
+/* pages/rich-text/rich-text.wxss */
+
+.typetitle{
+    font-size: 28rpx;
+    color: #999;
+    padding: 0 25rpx;
+    margin: 20rpx 0;
+}
+
+.excuBox{
+    padding: 0 25rpx;
+}
+
+scroll-view {
+    height: 200rpx;
+    border: 1rpx solid #1AAD19;
+    white-space: pre;
+    padding: 10rpx;
+    box-sizing: border-box;
+    margin-bottom: 25rpx;
+}
+
+.textShow{
+    /* 保留空白, 如首行缩进空白 */
+    white-space: pre-wrap;
+    /* 不保留空白 */
+    /* white-space: pre-line; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/rich-text/rich-text",
     "pages/progress/progress",
     "pages/icon/icon",
     "pages/text/text",

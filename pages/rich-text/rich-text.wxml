@@ -1,0 +1,44 @@
+<!--pages/rich-text/rich-text.wxml-->
+<import src="../common/head.wxml"/>
+<import src="../common/foot.wxml"/>
+
+<view class="container">
+    <template is="head" data="{{title:'rich-text',desc:''}}"></template>
+
+    <view class="typetitle">通过html string渲染</view>
+    <view class="excuBox">
+        <scroll-view scroll-y>{{htmlSnip}}</scroll-view>
+        <button type="primary" bindtap="renderHtml">渲染html</button>
+        <block wx:if="{{renderByHtml}}">
+            <rich-text nodes="{{htmlSnip}}"></rich-text>
+        </block>
+    </view>
+
+    <view class="typetitle">通过节点渲染</view>
+    <view class="excuBox">
+        <scroll-view scroll-y>
+            <view class="textShow">{{nodeSnipStr}}</view>
+        </scroll-view>
+        <button type="primary" bindtap="renderNode">渲染节点</button>
+        <block wx:if="{{renderByNode}}">
+            <rich-text nodes="{{nodeSnip}}"></rich-text>
+        </block>
+    </view>
+
+
+    <template is="foot"></template>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
