@@ -1,0 +1,21 @@
+<!--pages/text/text.wxml-->
+<import src="../common/head.wxml"/>
+<import src="../common/foot.wxml"/>
+
+<view class="container">
+    <template is="head" data="{{title:'text',desc:''}}"></template>
+
+    <view class="textbox">
+        <text >{{textcont}}</text>
+    </view>
+
+    <view class="btnbox">
+        <button bindtap="addline" disabled="{{!canAdd}}">add line</button>
+    </view>
+    <view class="btnbox">
+        <button bindtap="delline" disabled="{{!canRemove}}">delete line</button>
+    </view>
+
+    <template is="foot"></template>
+</view>
+
