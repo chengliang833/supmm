@@ -1,0 +1,23 @@
+<!--pages/progress/progress.wxml-->
+<import src="../common/head.wxml"/>
+<import src="../common/foot.wxml"/>
+
+<view class="container">
+    <template is="head" data="{{title:'progress',desc:''}}"></template>
+
+    <view class="probox">
+        <progress percent="20" show-info stroke-width="3"/>
+    </view>
+    <view class="probox">
+        <progress percent="40" active stroke-width="3"/>
+        <icon type="cancel" size="23" />
+    </view>
+    <view class="probox">
+        <progress percent="60" active stroke-width="3" />
+    </view>
+    <view class="probox">
+        <progress percent="80" color="#10AEFF" stroke-width="3" />
+    </view>
+
+    <template is="foot"></template>
+</view>

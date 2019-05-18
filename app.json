@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/progress/progress",
     "pages/icon/icon",
     "pages/text/text",
     "pages/index/index",

@@ -82,6 +82,9 @@ scrollview{
   justify-content:space-around;
 }
 
+
+
+/* width*grow弃用, 直接width100%, 可以取剩下宽的100% */
 /* flex下宽自动填充 */
 /* 原宽 默认 可以不用添加 */
 .widthorg{
